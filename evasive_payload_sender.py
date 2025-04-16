@@ -22,7 +22,7 @@ MAX_DELAY = 1.0                # Maximum delay between sending chunks (seconds)
 
 # WARNING: Hardcoded key is insecure! For demo purposes only.
 # Must be 16 (AES-128), 24 (AES-192), or 32 (AES-256) bytes long.
-AES_KEY = b'YourSecretKey12345678901234567890' # Use a 32-byte key for AES-256
+AES_KEY = b'YourSecretKey1234567890123456789' # Use a 32-byte key for AES-256
 
 # Header format: '!I' means network byte order (big-endian), unsigned integer (4 bytes)
 LENGTH_HEADER_FORMAT = '!I'
