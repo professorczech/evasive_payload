@@ -26,7 +26,7 @@ LISTEN_IP = "0.0.0.0"          # Listen on all available interfaces
 LISTEN_PORT = 4445             # Must match the sender's target port
 
 # WARNING: Hardcoded key is insecure! Use the SAME key as the sender.
-AES_KEY = b'YourSecretKey12345678901234567890' # Must match sender
+AES_KEY = b'YourSecretKey1234567890123456789' # Must match sender
 
 # Header format: Must match sender
 LENGTH_HEADER_FORMAT = '!I'
